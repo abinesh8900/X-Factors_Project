@@ -410,11 +410,13 @@ $(document).ready(function(){
  
  function openNav() {
     document.getElementById("mySidenav").style.width = "300px";
-}
+    document.getElementById("main").style.marginRight = "300px";
+  }
   
-function closeNav() {
+  function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-}
+    document.getElementById("main").style.marginRight= "0";
+  }
 
 
 /*$("#W-t").show(3000)
