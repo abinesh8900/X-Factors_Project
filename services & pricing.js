@@ -1,3 +1,4 @@
+/*wheels part*/
 $(document).ready(function(){
     $(".wheel-img").hide()
     $(".W-t").hide()
@@ -6,6 +7,9 @@ $(document).ready(function(){
     $(".wheel-content").hide()
     $(".pricing-content").hide()
     $(".from-left-wheel").click(function(){
+        $(".section-engine").hide()
+        $(".section-chassi").hide()
+        $(".section-wheels").show()
         $(".wheel-img").show()
         $(".wheel-img").animate({
             left: '73%'
@@ -128,7 +132,7 @@ $(document).ready(function(){
 });
 
 
-
+/*engine part*/
 $(document).ready(function(){
     $(".engine-img").hide()
     $(".e-W-t").hide()
@@ -137,6 +141,9 @@ $(document).ready(function(){
     $(".engine-content").hide()
     $(".engine-pricing-content").hide()
     $(".from-left-engine").click(function(){
+        $(".section-wheels").hide()
+        $(".section-chassi").hide()
+        $(".section-engine").show()
         $(".engine-img").show()
         $(".engine-img").animate({
             left: '73%'
@@ -259,7 +266,7 @@ $(document).ready(function(){
 });
 
 
-
+/*chassi part*/
 $(document).ready(function(){
     $(".chassi-img").hide()
     $(".c-W-t").hide()
@@ -268,6 +275,9 @@ $(document).ready(function(){
     $(".chassi-content").hide()
     $(".chassi-pricing-content").hide()
     $(".from-left-chassi").click(function(){
+        $(".section-wheels").hide()
+        $(".section-engine").hide()
+        $(".section-chassi").show()
         $(".chassi-img").show()
         $(".chassi-img").animate({
             left: '73%'
