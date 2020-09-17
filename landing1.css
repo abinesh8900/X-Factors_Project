@@ -43,8 +43,21 @@
 }
 .off_shore{
     color: #fff;
-}
-#accordion {
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 250px 1fr;
+    padding-left: 20px;
+}
+.collapse_button{
+    color: #1f1f1f;
+}
+.collapse_button > button{
+    padding: 10px;
+}
+#collapseExample > .card-body{
+    width: 500px;
+    margin-top: 20px;
+}
+#collapseExample1 > .card-body1{
+    width: 500px;
+    margin-top: 20px;
 }
