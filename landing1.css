@@ -49,20 +49,7 @@
     align-items: center;
     height: 200px;
 }
-/* .collapse_button{
-    color: #1f1f1f;
-}
-.collapse_button > button{
-    padding: 10px;
-}
-#collapseExample > .card-body{
-    width: 500px;
-    margin-top: 20px;
-}
-#collapseExample1 > .card-body1{
-    width: 500px;
-    margin-top: 20px;
-} */
+
 .coll_but{
     width: 600px;
 }
@@ -93,9 +80,10 @@
     height: 50px;
 }
 #staff{
-    color: red;
+    color: #fff;
     /* padding: 10px 30px; */
     padding-left: 30px;
+    
 }
 .collapsible-body{
     box-shadow: none; 
@@ -109,9 +97,16 @@
 }
 .collapsible-header{
     border-radius: 10px;
+    background: linear-gradient(145deg, #1c1c1c, #212121);
+    cursor: pointer;
+    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+    color: #fff;
+  
 }
 .collapsible-header.butt_con{
    font-weight: bold;
+   background: none;
+    border: none;
 }
 .collapsible-body>.staff-content{
     color: #fff;
