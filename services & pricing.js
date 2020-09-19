@@ -5,7 +5,7 @@ $(document).ready(function(){
     $(".X-c").hide()
     $(".FE-t").hide()
     $(".wheel-content").hide()
-    $(".pricing-content").hide()
+    $(".wheel_pricing_btn").hide()
     $(".from-left-wheel").click(function(){
         $(".section-engine").hide()
         $(".section-chassi").hide()
@@ -22,7 +22,7 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%",
+                "padding-top": "6%",
             })
             $(".X-c").mouseenter(function(){
                 $(".X-c").animate({
@@ -54,30 +54,9 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
-            })
-            $(".W-t").mouseenter(function(){
-                $(".X-c").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".W-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".FE-t").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
+                "padding-top": "3%",
             });
-            $(".W-t").mouseleave(function(){
-                $(".X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-            });
+    
             
 
             $(".FE-t").show().animate({
@@ -86,47 +65,17 @@ $(document).ready(function(){
                 "color":"#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
-            });
-            $(".FE-t").mouseenter(function(){
-                $(".X-c").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".W-t").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-                $(".FE-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-            });
-            $(".FE-t").mouseleave(function(){
-                $(".X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
+                "padding-top": "3%",
             });
 
 
             $(".wheel-content").show().animate({
                 left: '0px'
             },3000);
-            $(".pricing-content").show().delay(3000).animate({
-                right: '0px'
-            },1000).css({
-                "padding-top": "2%",
-                "color": "#fff",
-                "text-align": "center",
-                
-            });
-            $(".weel-pricing-menu").hide().css({"margin-top": "10%"})
-            $(".weel-pricing-btn").click(function(){
-                $(".weel-pricing-menu").show(1000)
-            });
+            
+            
+            $(".wheel_pricing_btn").show().animate({left: '250px'},4000);
+        
         });
     });
 });
@@ -139,7 +88,6 @@ $(document).ready(function(){
     $(".e-X-c").hide()
     $(".e-FE-t").hide()
     $(".engine-content").hide()
-    $(".engine-pricing-content").hide()
     $(".from-left-engine").click(function(){
         $(".section-wheels").hide()
         $(".section-chassi").hide()
@@ -155,7 +103,7 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
+                "padding-top": "6%"
             });
             $(".e-X-c").mouseenter(function(){
                 $(".e-X-c").animate({
@@ -188,29 +136,7 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
-            });
-            $(".e-W-t").mouseenter(function(){
-                $(".e-X-c").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".e-W-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".e-FE-t").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-            });
-            $(".e-W-t").mouseleave(function(){
-                $(".e-X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
+                "padding-top": "3%",
             });
 
 
@@ -221,46 +147,13 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
-            });
-            $(".e-FE-t").mouseenter(function(){
-                $(".e-X-c").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".e-W-t").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-FE-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-            });
-            $(".e-FE-t").mouseleave(function(){
-                $(".e-X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
+                "padding-top": "3%",
             });
 
 
             $(".engine-content").show().animate({
                 left: '0px'
             },3000);
-            $(".engine-pricing-content").show().delay(3000).animate({
-                right: '0px'
-            },1000).css({
-                "padding-top": "2%",
-                "color": "#fff",
-                "text-align": "center"
-            });
-            $(".engine-pricing-menu").hide().css({"margin-top": "10%"})
-            $(".engine-pricing-btn").click(function(){
-                $(".engine-pricing-menu").show(1000)
-            });
         });
     });
 });
@@ -289,7 +182,7 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
+                "padding-top": "6%"
             });
             $(".c-X-c").mouseenter(function(){
                 $(".c-X-c").animate({
@@ -321,29 +214,7 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
-            });
-            $(".c-W-t").mouseenter(function(){
-                $(".c-X-c").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".c-W-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".c-FE-t").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-            });
-            $(".c-W-t").mouseleave(function(){
-                $(".c-X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
+                "padding-top": "3%",
             });
 
 
@@ -354,29 +225,7 @@ $(document).ready(function(){
                 "color": "#fff",
                 "text-align": "center",
                 "line-height": "20px",
-                "padding-top": "5%"
-            });
-            $(".c-FE-t").mouseenter(function(){
-                $(".c-X-c").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".c-W-t").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-FE-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-            });
-            $(".c-FE-t").mouseleave(function(){
-                $(".c-X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
+                "padding-top": "3%",
             });
 
 
@@ -385,17 +234,6 @@ $(document).ready(function(){
             $(".chassi-content").show().animate({
                 left: '0px'
             },3000);
-            $(".chassi-pricing-content").show().delay(3000).animate({
-                right: '0px'
-            },1000).css({
-                "padding-top": "2%",
-                "color": "#fff",
-                "text-align": "center"
-            });
-            $(".chassi-pricing-menu").hide().css({"margin-top": "10%"})
-            $(".chassi-pricing-btn").click(function(){
-                $(".chassi-pricing-menu").show(1000)
-            });
         });
     });
 });
