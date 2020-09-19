@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #1f1f1f;
+}
+
+.landing_page_1{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+#logo{
+    color:#F70D1A;
+    font-family: omegacentauri;
+    text-align: center;
+    padding-top:20px ;
+}
+.logo-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+
+}
+.motor_sales{
+    background-color: #F70D1A;
+    color: #fff;
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 15px;
+    text-transform: capitalize;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.work_list{
+    margin-top: 50px;
+    /* position: relative;
+    top: 50px;  */
+}
+.work_list > ul{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    /* align-items: center; */
+    justify-items: center;
+
+}
+.work_list > ul > li{
+    /* float: left;
+    padding: 10px 20px ; */
+    list-style: none;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #1c1c1c, #212121);
+    cursor: pointer;
+    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+    height: 50px;
+    width: 200px;
+    padding: 15px 0 ;
+    text-align: center;  
+}
+.work_list > ul > li:hover{
+    color: #1f1f1f;
+    font-weight: 700;
+    background: linear-gradient(145deg, hsla(0, 84%, 70%, 0.904), #ca4d4de0);
+}
