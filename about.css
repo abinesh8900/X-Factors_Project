@@ -102,6 +102,46 @@
     text-align: start;
     padding: 10px 20px;
 }
+.carousel-box{
+    height: 400px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 835px;
+    text-align: center;
+    margin: 10px;
+    background: linear-gradient(145deg, #1c1c1c, #212121);
+    cursor: pointer;
+    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+}
+#carouselExampleControls{
+    width: 600px;
+    margin: 2px auto;
+    background-color: transparent;
+    height: 400px;
+}
+.carousel-inner{
+    padding: 10px;
+}
+.carousel-item > h1{
+   font-size: 30px;
+   font-weight: bold;
+   margin-top: 10px;
+   color:#F70D1A ;
+}
+.carousel-item > p{
+    font-size:15px;
+    line-height: 25px;
+    /* padding: 10px; */
+    margin-top: 30px;
+    text-align: start;
+    /* font-weight: 500; */
+ }
+.carousel-control-prev {
+    margin: 10px -100px;
+}
+.carousel-control-next {
+    margin: 10px -100px;
+}
 
 .content-sec2{
    margin-top: 50px;
