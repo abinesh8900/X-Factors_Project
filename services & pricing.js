@@ -4,8 +4,7 @@ $(document).ready(function(){
     $(".W-t").hide()
     $(".X-c").hide()
     $(".FE-t").hide()
-    $(".wheel-content").hide()
-    $(".wheel_pricing_btn").hide()
+    $(".wheel_content").hide()
     $(".from-left-wheel").click(function(){
         $(".section-engine").hide()
         $(".section-chassi").hide()
@@ -69,13 +68,9 @@ $(document).ready(function(){
             });
 
 
-            $(".wheel-content").show().animate({
+            $(".wheel_content").show().animate({
                 left: '0px'
             },3000);
-            
-            
-            $(".wheel_pricing_btn").show().animate({left: '250px'},4000);
-        
         });
     });
 });
@@ -87,7 +82,7 @@ $(document).ready(function(){
     $(".e-W-t").hide()
     $(".e-X-c").hide()
     $(".e-FE-t").hide()
-    $(".engine-content").hide()
+    $(".engine_content").hide()
     $(".from-left-engine").click(function(){
         $(".section-wheels").hide()
         $(".section-chassi").hide()
@@ -151,7 +146,7 @@ $(document).ready(function(){
             });
 
 
-            $(".engine-content").show().animate({
+            $(".engine_content").show().animate({
                 left: '0px'
             },3000);
         });
@@ -165,8 +160,7 @@ $(document).ready(function(){
     $(".c-W-t").hide()
     $(".c-X-c").hide()
     $(".c-FE-t").hide()
-    $(".chassi-content").hide()
-    $(".chassi-pricing-content").hide()
+    $(".chassi_content").hide()
     $(".from-left-chassi").click(function(){
         $(".section-wheels").hide()
         $(".section-engine").hide()
@@ -231,7 +225,7 @@ $(document).ready(function(){
 
 
 
-            $(".chassi-content").show().animate({
+            $(".chassi_content").show().animate({
                 left: '0px'
             },3000);
         });
@@ -247,7 +241,7 @@ $(document).ready(function(){
         $(".wrapper_menu").show()
         $(".menu_close").click(function(){
             $(".menu_close").hide()
-        $(".wrapper_menu").hide()
+            $(".wrapper_menu").hide()
         });
 
     });
@@ -266,12 +260,32 @@ $(document).ready(function(){
     document.getElementById("main").style.marginRight= "0";
   }
 
+ // pricing compare & hide
+ $(document).ready(function(){
+     $("compare").hide()
+     $("compare_click").click(function(){
+        $("compare_click").hide()
+        $("compare").show()
+     });
 
-/*$("#W-t").show(3000)
-$("#X-c").show(1000)
-$("#FE-t").show(3000)
-$(".wheel-content").show(3500)
-$("wheel-content-1").show(4000)
-$("wheel-content-2").show(4500)
-$("wheel-content-3").show(5000)
-$("wheel-content-4").show(6000)*/
+     $("hide_click").click(function(){
+        $("hide_click").hide()
+        $("compare").hide()
+     });
+
+ });
+
+ $(document).ready(function(){ 
+    $(".compare ").hide()
+    $(".compare_click").click(function(){
+        $(".compare_click").hide()
+        $(".compare").show()
+        $(".hide_click").show()
+    });
+
+    $(".hide_click").click(function(){
+        $(".hide_click").hide()
+        $(".compare").hide()
+        $(".compare_click").show()
+    });
+ });
