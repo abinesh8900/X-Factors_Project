@@ -7,12 +7,13 @@
     width: 100%;
 }
 
-.menu_bar{
+.icon{
     position: fixed;
     left: 0px;
     top: 10px;
     height: 50px;
     width: 50px;
+    transform: translate(-50% -50%);
     float: left;
     margin: 0 5px;
     overflow: hidden;
@@ -24,35 +25,51 @@
     font-size: 25px;
     line-height: 50px;
     z-index: 1;
-}
-.menu_bar_icon{
-    left: 0px;
-    top: 10px;
-    height: 50px;
-    width: 50px;
-    text-align: center;
-    border-radius: 40px;
-    box-sizing: border-box;
-    line-height: 50px;
-}
-.menu_close{
-    position: fixed;
-    left: 0px;
-    top: 10px;
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin: 0 5px;
-    overflow: hidden;
-    color: #F70D1A;
-    border-radius: 40px;
-    background: linear-gradient(145deg, #1c1c1c, #212121);
-    cursor: pointer;
-    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
-    font-size: 25px;
-    line-height: 50px;
-    z-index: 1;
-}
+  }
+  .hamburger{
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    top: 25px;
+    left: 12px;
+    transform: translate(-50% -50%);
+    transition: .5s;
+    border-radius: 2px;
+  }
+  .hamburger:before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    transition: .5s;
+    top: -8px;
+    border-radius: 2px;
+    
+  }
+  .hamburger:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    transition: .5s;
+    top: 8px;
+    border-radius: 2px;
+    
+  }
+  .icon.active .hamburger{
+    background: #1c1c1c;
+  } 
+  .icon.active .hamburger:before{
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .icon.active .hamburger:after{
+    top: 0;
+    transform: rotate(135deg);
+  }
 .wrapper_menu{
     position: fixed;
     left: 60px;
@@ -160,9 +177,14 @@
 .services-banner{
     margin-top: 6%;;
 }
+
 figure{
     overflow: hidden;
     position: relative;
+    background: linear-gradient(145deg, #1c1c1c, #212121);
+    cursor: pointer;
+    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+    border-radius: 10px;
 }
 .services-img{
     max-width: 100%;
@@ -192,6 +214,7 @@ figcaption p .text-click{
 }
 figure{
     background: #F70D1A;
+    border-radius: 10px;
 }
 figure figcaption:before{
     position: absolute;
@@ -294,6 +317,30 @@ figure:hover p {
     position: relative;
 }
 
+.read_more{
+    color: #F70D1A;
+    cursor: pointer;
+}
+.pricing_wheel .pricing_engine .pricing_chassi{
+    left: -100%;
+    right: -100%;
+}
+.pricing_btn_click{
+    background: linear-gradient(145deg, #1c1c1c, #212121);
+    cursor: pointer;
+    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+    border-bottom: 4px solid #F70D1A;
+    border-top: 4px solid #F70D1A;
+     color: #fff;
+     width: 230px;
+     height: 53px;
+     text-align: center;
+     margin: 20px auto;
+     padding-top: 5px;
+     text-transform: capitalize;
+     border-radius: 20px;
+     font-size: 25px;
+}
 .pricing{
     background-color: #1f1f1f;
     color: #fff;

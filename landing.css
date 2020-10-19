@@ -339,25 +339,26 @@ grid-gap: 30px;
     
 }
 .tuning_works > h2{
-    background-color: #F70D1A;
+   border-bottom: 4px solid #F70D1A;
+   border-top: 4px solid #F70D1A;
     color: #fff;
-    width: 320px;
-    height: 50px;
+    width: 230px;
+    height: 43px;
     text-align: center;
     margin: 20px auto;
     padding-top: 5px;
     text-transform: capitalize;
     border-radius: 10px;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
 }
 .tuning_icon{
   padding-left: 40px;
   padding-right: 40px;
+  max-width: 250px;
 }
 .tuning_works_content {
   padding: 20px;
-  height: 60%;
+  height: 400px;
   background: linear-gradient(145deg, #1c1c1c, #212121);
   cursor: pointer;
   box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
@@ -394,17 +395,17 @@ grid-gap: 30px;
 }
 
 .why_choose_us > h2 {
-  background-color: #F70D1A;
-  color: #fff;
-  width: 320px;
-  height: 50px;
-  text-align: center;
-  margin: 20px auto;
-  padding-top: 5px;
-  text-transform: capitalize;
-  border-radius: 10px;
-  font-size: 30px;
-  font-weight: bold;
+  border-bottom: 4px solid #F70D1A;
+  border-top: 4px solid #F70D1A;
+    color: #fff;
+    width: 250px;
+    height: 43px;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 5px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: 25px;
 }
 
 .why_choose_us_content{
@@ -418,17 +419,16 @@ grid-gap: 30px;
   
 }
 .why_choose_us_content > h4{
-  background-color: #F70D1A;
-  color: #fff;
-  width: 320px;
-  height: 50px;
-  text-align: center;
-  margin: 20px auto;
-  padding-top: 5px;
-  text-transform: capitalize;
-  border-radius: 10px;
-  font-size: 30px;
-  font-weight: bold;
+  border-bottom: 4px solid #F70D1A;
+    color: #fff;
+    width: 250px;
+    height: 43px;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 5px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: 25px;
 }
 
 
@@ -498,21 +498,22 @@ grid-gap: 30px;
 }
 .xfactor_difference_icon{
   height: 100px;
+  padding-right: 25px;
   
   
 }
 .xfactor_difference > h2 {
-  background-color: #F70D1A;
-  color: #fff;
-  width: 320px;
-  height: 50px;
-  text-align: center;
-  margin: 20px auto;
-  padding-top: 5px;
-  text-transform: capitalize;
-  border-radius: 10px;
-  font-size: 30px;
-  font-weight: bold;
+  border-bottom: 4px solid #F70D1A;
+  border-top: 4px solid #F70D1A;
+    color: #fff;
+    width: 250px;
+    height: 43px;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 5px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    font-size: 25px;
 }
 
 .xfactor_difference_boder{
@@ -526,6 +527,7 @@ grid-gap: 30px;
 .xfactor_difference_content_left > h5{
   color: #F70D1A;
   text-align: center;
+  margin-top: -30px;
 }
 
 .xfactor_difference_content_left > p{

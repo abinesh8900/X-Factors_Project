@@ -1,16 +1,15 @@
 $(document).ready(function(){
-    $(".menu_close").hide()
     $(".wrapper_menu").hide()
-    $(".menu_bar").click(function(){
-        $(".menu_close").show()
-        $(".wrapper_menu").show()
-        $(".menu_close").click(function(){
-            $(".menu_close").hide()
-        $(".wrapper_menu").hide()
+    $('.icon').click(function(){
+        $(".wrapper_menu").show(500);
+        $('.icon').toggleClass('active').click(function(){
+            if(!$( ".icon" ).hasClass( "active" )){
+                $(".wrapper_menu").hide();
+            }
+          
         });
-
     });
-});
+})
 
  // sidebar in contact
  
