@@ -10,19 +10,7 @@ $(document).ready(function(){
         });
     });
 });
-/*$(document).ready(function(){
-    $(".menu_close").hide()
-    $(".wrapper_menu").hide()
-    $(".menu_bar").click(function(){
-        $(".menu_close").show()
-        $(".wrapper_menu").show()
-        $(".menu_close").click(function(){
-            $(".menu_close").hide()
-        $(".wrapper_menu").hide()
-        });
 
-    });
-});*/
 
  // sidebar in contact
  
@@ -37,8 +25,6 @@ function closeNav() {
 
 
 // read more
-
-
 
 $(document).ready(function(){ 
     $(".people_read_more ").hide()

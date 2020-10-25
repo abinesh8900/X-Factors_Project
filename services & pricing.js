@@ -23,29 +23,7 @@ $(document).ready(function(){
                 "text-align": "center",
                 "line-height": "20px",
                 "padding-top": "6%",
-            })
-            /*$(".X-c").mouseenter(function(){
-                $(".X-c").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-                $(".W-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".FE-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
             });
-            $(".X-c").mouseleave(function(){
-                $(".X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-            });*/
 
 
             $(".W-t").show().animate({
@@ -69,13 +47,9 @@ $(document).ready(function(){
             });
 
 
-            $(".wheel_content").show().animate({
-                left: '0px'
-            },3000);
+            $(".wheel_content").show()
 
-            $(".pricing_wheel").show().animate({
-                left: '0px'
-            },6000);
+            $(".pricing_wheel").show()
         });
     });
 });
@@ -157,28 +131,6 @@ $(document).ready(function(){
                 "line-height": "20px",
                 "padding-top": "6%"
             });
-            /*$(".e-X-c").mouseenter(function(){
-                $(".e-X-c").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-W-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".e-FE-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-            });
-            $(".e-X-c").mouseleave(function(){
-                $(".e-X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".e-FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-            });*/
 
 
 
@@ -203,13 +155,9 @@ $(document).ready(function(){
             });
 
 
-            $(".engine_content").show().animate({
-                left: '0px'
-            },3000);
+            $(".engine_content").show()
 
-            $(".pricing_engine").show().animate({
-                left: '0px'
-            },6000);
+            $(".pricing_engine").show()
         });
     });
 });
@@ -310,28 +258,6 @@ $(document).ready(function(){
                 "line-height": "20px",
                 "padding-top": "6%"
             });
-            /*$(".c-X-c").mouseenter(function(){
-                $(".c-X-c").animate({
-                    opacity: "0.5"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-W-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-                $(".c-FE-t").animate({
-                    opacity: "0.8"
-                }).css({"background-color":"#F70D1A"});
-            });
-            $(".c-X-c").mouseleave(function(){
-                $(".c-X-c").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-W-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-                $(".c-FE-t").animate({
-                    opacity: "1"
-                }).css({"background-color":"#1f1f1f"});
-            });*/
 
 
             $(".c-W-t").show().animate({
@@ -355,13 +281,9 @@ $(document).ready(function(){
             });
 
 
-            $(".chassi_content").show().animate({
-                left: '0px'
-            },3000);
+            $(".chassi_content").show()
 
-            $(".pricing_chassi").show().animate({
-                left: '0px'
-            },6000)
+            $(".pricing_chassi").show()
         });
     });
 });
