@@ -1,17 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
     box-sizing: border-box;
     text-decoration: none;
     width: 100%;
     font-family: 'Titillium Web', sans-serif;
     
 }
+.left_right_aline{
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .landing_pg_vedio{
   background-color: #1f1f1f;
   color: #fff;
   padding-top: 2%;
   padding-bottom: 5%;
+}
+.video_header{
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .icon{
@@ -194,7 +203,7 @@
     padding: 2px 20px;
     position: fixed;
     font-size: 20px;
-    top: 60%;
+    top: 80%;
     right:2px;
     text-align: center;
     width: 50px;
@@ -265,8 +274,13 @@ grid-gap: 30px;
    display: flex;
    font-size: 20px;
 }
-.social i{
-    padding-right: 20%;
+.social > a{
+    padding-right: 50px;
+    text-decoration:none;
+    color: #fff;
+}
+.social >a:hover{
+  color: #F70D1A;
 }
 .social{
     margin-left: 5%;
@@ -296,6 +310,7 @@ grid-gap: 30px;
     color: #fff;
     padding-top: 2%;
     padding-bottom: 5%;
+
     
 }
 .tuning_works > h2{
@@ -509,7 +524,7 @@ padding: 5% 17% 5% 17%
 }
 .footer_bg{
   background-image: url(images/About/Footer-Image.png);
-
+  background-repeat: repeat;
 }
 .footer_logo{
   text-align: center;
@@ -519,24 +534,26 @@ padding: 5% 17% 5% 17%
   border-right: 4px solid #F70D1A;
 
 }
-.footer_content_left > h5{
+.footer_content_left > h4{
   padding-top: 20px;
   color: #F70D1A;
 
 }
 .footer_content_left > p{
-
+padding-top: 20px;
 }
 .footer_content_right_list{
   padding-left: 30px;
+  padding-top: 20px;
 }
-.footer_content_right_list > h5{
-text-align: center;
+.footer_content_right_list > h5 >a{
+text-align: left;
 color: #F70D1A;
-padding-top: 20px;
+text-decoration: none;
+cursor: pointer;
 }
 .footer_content_right_list > p{
-  text-align: center;
+  text-align: left;
   }
 .footer_content_right_border{
  margin-left: 40px;
@@ -546,10 +563,30 @@ padding-top: 20px;
 .copyright{
   text-align: center;
   padding-top: 20px;
+  line-height: 7px;
 }
 .madeby{
 color: #fff;
 }
 .madeby:hover{
+  color: #F70D1A;
+}
+.gotop{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius:50% ;
+  background: linear-gradient(145deg, #1c1c1c, #212121);
+  cursor: pointer;
+  box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+  color: #F70D1A;
+  bottom: 20px;
+  right: 0px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 29px;
+}
+.gotop:hover{
   color: #F70D1A;
 }

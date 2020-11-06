@@ -18,34 +18,7 @@ $(document).ready(function(){
 
             $(".X-c").show().animate({
                 left: '0px'
-            }).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "6%",
             });
-
-
-            $(".W-t").show().animate({
-                left: '0px'
-            },1000).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "3%",
-            });
-    
-            
-
-            $(".FE-t").show().animate({
-                left: '0px'
-            },1500).css({
-                "color":"#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "3%",
-            });
-
 
             $(".wheel_content").show()
 
@@ -125,35 +98,7 @@ $(document).ready(function(){
             $(".engine-img").hide()
             $(".e-X-c").show().animate({
                 left: '0px'
-            }).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "6%"
             });
-
-
-
-            $(".e-W-t").show().animate({
-                left: '0px'
-            },1000).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "3%",
-            });
-
-
-
-            $(".e-FE-t").show().animate({
-                left: '0px'
-            },1500).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "3%",
-            });
-
 
             $(".engine_content").show()
 
@@ -252,34 +197,7 @@ $(document).ready(function(){
             $(".chassi-img").hide()
             $(".c-X-c").show().animate({
                 left: '0px'
-            }).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "6%"
             });
-
-
-            $(".c-W-t").show().animate({
-                left: '0px'
-            },1000).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "3%",
-            });
-
-
-
-            $(".c-FE-t").show().animate({
-                left: '0px'
-            },1500).css({
-                "color": "#fff",
-                "text-align": "center",
-                "line-height": "20px",
-                "padding-top": "3%",
-            });
-
 
             $(".chassi_content").show()
 
@@ -350,39 +268,10 @@ $(document).ready(function(){
     document.getElementById("main").style.marginRight= "0";
   }
 
- // pricing compare & hide
- $(document).ready(function(){
-     $("compare").hide()
-     $("compare_click").click(function(){
-        $("compare_click").hide()
-        $("compare").show()
-     });
 
-     $("hide_click").click(function(){
-        $("hide_click").hide()
-        $("compare").hide()
-     });
-
- });
-
- $(document).ready(function(){
+ /*$(document).ready(function(){
      $(".pricing_show").hide()
      $(".pricing_btn_click").click(function(){
          $(".pricing_show").show()
-         $("hide_click").hide()
-         
      });
-     
-     $(".compare ").hide()
-    $(".compare_click").click(function(){
-        $(".compare_click").hide()
-        $(".compare").show()
-        $(".hide_click").show()
-    });
-
-    $(".hide_click").click(function(){
-        $(".hide_click").hide()
-        $(".compare").hide()
-        $(".compare_click").show()
-    });
- });
+ });*/
