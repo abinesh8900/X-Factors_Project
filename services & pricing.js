@@ -267,7 +267,16 @@ $(document).ready(function(){
 
   }
 
+  $(document).mouseup(function (e){
 
+	var container = $("#mySidenav");
+
+    if (!container.is(e.target) && container.has(e.target).length === 0){
+
+		container.removeClass( "sidebarActive" );
+		
+	}
+}); 
  /*$(document).ready(function(){
      $(".pricing_show").hide()
      $(".pricing_btn_click").click(function(){

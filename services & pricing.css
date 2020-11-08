@@ -604,4 +604,8 @@ color: #fff;
     .sidebarActive {
       width: 100%;
             }
+
+      .tuning-img{
+        width:150px;
+      }
     }

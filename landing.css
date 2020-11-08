@@ -590,3 +590,21 @@ color: #fff;
 .gotop:hover{
   color: #F70D1A;
 }
+
+@media screen and (max-width: 600px) {    
+body {
+font-size: 12px;
+}
+.tuning-img{
+  width:150px;
+}
+.tuning_works_sub_content{
+  width: 150px;
+font-size: 12px;
+
+}
+.tuning_works .col-md-6{
+  width:50%;
+}
+
+  }
