@@ -259,13 +259,12 @@ $(document).ready(function(){
  // sidebar in contact
  
  function openNav() {
-    document.getElementById("mySidenav").style.width = "300px";
-    document.getElementById("main").style.marginRight = "300px";
+    $( "#mySidenav" ).addClass( "sidebarActive" );
   }
   
   function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginRight= "0";
+    $( "#mySidenav" ).removeClass( "sidebarActive" );
+
   }
 
 

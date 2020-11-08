@@ -387,6 +387,9 @@ figure:hover p {
 
 /* side bar */
 .sidenav {
+    overflow-x: hidden;
+    overflow-y:scroll;
+    padding-bottom: 50px;
     height: 100%;
     width: 0;
     position: fixed;
@@ -418,13 +421,12 @@ figure:hover p {
   
   .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    left:250px;
-    font-size: 36px;
+    top: -12px;
+    right: 32px;
+    font-size: 50px;
     color: #fff;
     text-decoration: none;
-    /* margin-left: 280px; */
-    padding: 0;
+    width: 20px;
   }
 .side-icon {
     padding: 2px 20px;
@@ -501,7 +503,7 @@ grid-gap: 30px;
    font-size: 20px;
 }
 .social > a{
-    padding-right: 50px;
+    padding: 0;
     text-decoration:none;
     color: #fff;
 }
@@ -595,3 +597,11 @@ color: #fff;
   .gotop:hover{
     color: #F70D1A;
   }
+  .sidebarActive{
+    width: 300px;
+  }
+  @media screen and (max-width: 600px) {    
+    .sidebarActive {
+      width: 100%;
+            }
+    }
