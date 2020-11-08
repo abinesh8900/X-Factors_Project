@@ -243,4 +243,9 @@ $(document).ready(function(){
 });
 
 
-
+ /*$(document).ready(function(){
+     $(".pricing_show").hide()
+     $(".pricing_btn_click").click(function(){
+         $(".pricing_show").show()
+     });
+ });*/

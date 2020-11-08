@@ -9,7 +9,7 @@
 }
 .left_right_aline{
     padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 10px;
   }
 .icon{
     position: fixed;
@@ -179,7 +179,19 @@
     /* border: 3px solid #fff; */
     box-shadow:0px 1px  10px 0px rgb(231, 229, 229);
 }
-  
+.sidenav .closebtn{
+  position: absolute;
+  top: 15px;
+  right: 12px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  transform: translate(-50% -50%);
+  text-align: center;
+}
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -193,15 +205,6 @@
     color: #f1f1f1;
   }
   
-  .sidenav .closebtn {
-    position: absolute;
-    top: -12px;
-    right: 32px;
-    font-size: 50px;
-    color: #fff;
-    text-decoration: none;
-    width: 20px;
-  }
 .side-icon {
     padding: 2px 20px;
     position: fixed;
@@ -297,11 +300,7 @@ grid-gap: 30px;
 .sidebarActive{
   width: 300px;
 }
-@media screen and (max-width: 600px) {    
-  .sidebarActive {
-    width: 100%;
-          }
-  }
+
 
 .footer{
   background-color: #1f1f1f;
@@ -377,4 +376,23 @@ color: #fff;
   }
   .gotop:hover{
     color: #F70D1A;
+  }
+
+
+
+  @media screen and (max-width: 600px) {  
+    
+    /*side bar*/
+    .sidebarActive {
+      width: 100%;
+    }
+    /*logo*/
+    .logo{
+      float: right;
+      width: 25px;
+      height: 35px;
+      position: relative;
+      top: 20px;
+      left: -20px;
+    }
   }

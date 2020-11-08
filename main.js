@@ -21,3 +21,25 @@ $(document).ready(function(){
     $( "#mySidenav" ).removeClass( "sidebarActive" );
 
   }
+  
+  $(document).mouseup(function (e){
+
+	var container = $("#mySidenav");
+
+    if (!container.is(e.target) && container.has(e.target).length === 0){
+
+		container.removeClass( "sidebarActive" );
+		
+	}
+}); 
+
+$(document).mouseup(function (e){
+
+	var container = $("#menu_btn");
+
+    if (!container.is(e.target) && container.has(e.target).length === 0){
+
+		container.removeClass( "" );
+		
+	}
+});

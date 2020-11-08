@@ -219,3 +219,21 @@ padding: 5% 17% 5% 17%
   color: #F70D1A;
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {    
+body {
+font-size: 12px;
+}
+.tuning-img{
+  width:150px;
+}
+.tuning_works_sub_content{
+  width: 150px;
+font-size: 12px;
+
+}
+.tuning_works .col-md-6{
+  width:50%;
+}
+
+  }
