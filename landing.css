@@ -13,11 +13,12 @@
     background-color: #1f1f1f;
     color: #fff;
     padding-top: 2%;
-    padding-bottom: 5%;
-
-    
+    padding-bottom: 5%;  
+    border-bottom: 8px solid #F70D1A;
 }
 .tuning_works > h2{
+  background: linear-gradient(145deg, #1c1c1c, #212121);
+  box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
    border-bottom: 4px solid #F70D1A;
    border-top: 4px solid #F70D1A;
     color: #fff;
@@ -71,9 +72,12 @@
   color: #fff;
   padding-top: 2%;
   padding-bottom: 5%;
+  border-bottom: 8px solid #F70D1A;
 }
 
 .why_choose_us > h2 {
+  background: linear-gradient(145deg, #1c1c1c, #212121);
+  box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
   border-bottom: 4px solid #F70D1A;
   border-top: 4px solid #F70D1A;
   color: #fff;
@@ -86,40 +90,7 @@
   border-radius: 10px;
   font-size: 25px;
 }
-.video{
-  width: 100px;
-  height: 43px;
-  text-align: center;
-  margin: 20px auto;
-  margin-bottom: 30px;
-}
-.video >a:hover {
-  text-decoration: none;
-  color: #F70D1A;
-}
 
-.video >a  {
-  text-decoration: none;
-  font-size: 100px;
-  color: #F70D1A;
-  cursor: pointer;
-}
-.pop_video{
-padding: 5% 17% 5% 17%
-
-}
-.pop_viedo_close_click{
-  color: #fff;
-  text-align: end;
-  font-size: 30px;
-  cursor: pointer;
-}
-.pop_viedo_close_click:hover{
-  color: #F70D1A;
-  text-align: end;
-  font-size: 30px;
-  cursor: pointer;
-}
 .why_choose_us_content{
   margin-top: 10px;
   margin-left: 50px;
@@ -155,7 +126,52 @@ padding: 5% 17% 5% 17%
   font-weight: bold;
 }
 
+
 /*==== WHY CHOOSE US END ====*/
+
+
+
+/*==== WHO WE ARE START====-*/
+.who_we_are{
+  background-color: #1f1f1f;
+  color: #fff;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  border-bottom: 8px solid #F70D1A; 
+}
+.who_we_are > h2{
+  background: linear-gradient(145deg, #1c1c1c, #212121);
+  box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+  border-bottom: 4px solid #F70D1A;
+  border-top: 4px solid #F70D1A;
+  color: #fff;
+  width: 250px;
+  height: 43px;
+  text-align: center;
+  margin: 20px auto;
+  padding-top: 5px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.who_we_are_content > h4{
+  border-bottom: 4px solid #F70D1A;
+  color: #fff;
+  width: 250px;
+  height: 43px;
+  text-align: center;
+  margin: 20px auto;
+  padding-top: 5px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.who_we_are_content > p{
+  padding: 10px;
+  padding-top: 20px;
+}
+/*==== WHO WE ARE END====-*/
+
 
 
 /*==== XFactor Difference Starts ====*/
@@ -176,6 +192,8 @@ padding: 5% 17% 5% 17%
   
 }
 .xfactor_difference > h2 {
+  background: linear-gradient(145deg, #1c1c1c, #212121);
+  box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
   border-bottom: 4px solid #F70D1A;
   border-top: 4px solid #F70D1A;
     color: #fff;
@@ -224,6 +242,7 @@ padding: 5% 17% 5% 17%
 body {
 font-size: 12px;
 }
+/*tuning works*/
 .tuning-img{
   width:150px;
 }
@@ -235,5 +254,29 @@ font-size: 12px;
 .tuning_works .col-md-6{
   width:50%;
 }
+.tuning_works > h2, .why_choose_us > h2, .xfactor_difference > h2, .who_we_are > h2 {
+  width: 170px;
+  height: 38px;
+  padding-top: 4px;
+  font-size: 18px;
+}
+.tuning_works, .why_choose_us, .who_we_are{
+  border-bottom: 5px solid #F70D1A;
+}
+/*why chooses_us*/
+.why_choose_us > h5{
+  font-size: 16px;
+}
+.why_choose_us_content > h4, .who_we_are_content > h4{
+  width: 170px;
+  height: 38px;
+  padding-top: 4px;
+  font-size: 18px;
+}
+.who_we_are_content > h4{
+  margin-right: 55px;
+}
+
+
 
   }

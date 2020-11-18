@@ -196,3 +196,21 @@ width: auto;
   color: #F70D1A;
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {    
+  body {
+  font-size: 12px;
+  }
+  /*about head*/
+  .about_head_left > h4{
+    margin-top: 7%;
+  }
+  /* vision and mision*/
+  .vision, .mission{
+    margin-left: 50px;
+  }
+  .founder_1, .founder_2{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 12px;
+  }
+}

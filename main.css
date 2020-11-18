@@ -7,6 +7,9 @@
     font-family: 'Titillium Web', sans-serif;
     width: 100%;
 }
+.special_case{
+  color: #F70D1A;
+}
 .left_right_aline{
     padding-left: 30px;
     padding-right: 10px;
@@ -112,13 +115,13 @@
       color: #1f1f1f;
   }
   .wrapper_menu .button_menu:nth-child(1):hover .icon_menu{
-    background:#F70D1A;
+    background: #fff;
   }
   .wrapper_menu .button_menu:nth-child(2):hover .icon_menu{
-    background: #F70D1A;
+    background: #fff;
   }
   .wrapper_menu .button_menu:nth-child(3):hover .icon_menu{
-    background: #F70D1A;
+    background: #fff;
   }
   
   .wrapper_menu .button_menu .icon_menu i{
@@ -137,13 +140,13 @@
     transition: all 0.3s ease-out;
   }
   .wrapper_menu .button_menu:nth-child(1) span{
-    color: #F70D1A;
+    color: #fff;
   }
   .wrapper_menu .button_menu:nth-child(2) span{
-    color: #F70D1A;
+    color: #fff;
   }
   .wrapper_menu .button_menu:nth-child(3) span{
-    color: #F70D1A;
+    color: #fff;
   }
 .section-1{
     background-color: #1f1f1f;
@@ -160,7 +163,7 @@
     left: -50px;
 }
 /* side bar */
-.sidenav {
+.sidenav  {
     overflow-x: hidden;
     overflow-y:scroll;
     padding-bottom: 50px;
@@ -179,7 +182,23 @@
     /* border: 3px solid #fff; */
     box-shadow:0px 1px  10px 0px rgb(231, 229, 229);
 }
-.sidenav .closebtn{
+/*.sidenav > i{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #1c1c1c, #212121);
+  cursor: pointer;
+  box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+  color: #F70D1A;
+  top: 0px;
+  right: 0px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 35px;
+}*/
+.sidenav > .closebtn{
   position: absolute;
   top: 15px;
   right: 12px;
@@ -192,7 +211,7 @@
   transform: translate(-50% -50%);
   text-align: center;
 }
-  .sidenav a {
+  .sidenav > a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -201,7 +220,7 @@
     transition: 0.3s;
   }
   
-  .sidenav a:hover {
+  .sidenav > a:hover {
     color: #f1f1f1;
   }
   
@@ -261,11 +280,14 @@
     color: #F70D1A;    /* color changes here */
     font-weight: 700;
 }
-.contact-touch > p{
-line-height:20px;
-display: grid;
-grid-template-columns: 5px 1fr;
-grid-gap: 30px;
+.contact-touch > a{
+text-decoration: none;
+color: #fff;
+line-height: 45px;
+font-size: 17px;
+}
+.contact-touch > a:hover{
+  color: #F70D1A;
 }
 .contact-social {
     text-transform: capitalize;
@@ -310,7 +332,6 @@ grid-gap: 30px;
 }
 .footer_bg{
   background-image: url(images/About/Footer-Image.png);
-
 }
 .footer_logo{
   text-align: center;
@@ -362,19 +383,35 @@ color: #fff;
     position: fixed;
     width: 50px;
     height: 50px;
-    border-radius:50% ;
-    background: linear-gradient(145deg, #1c1c1c, #212121);
     cursor: pointer;
-    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
     color: #F70D1A;
     bottom: 20px;
     right: 0px;
     text-decoration: none;
     text-align: center;
     line-height: 50px;
-    font-size: 29px;
+    font-size: 35px;
   }
   .gotop:hover{
+    color: #F70D1A;
+  }
+  .chatbox{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #1c1c1c, #212121);
+    cursor: pointer;
+    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+    color: #F70D1A;
+    bottom: 20px;
+    left: 0px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 35px;
+  }
+  .chatbox:hover{
     color: #F70D1A;
   }
 
@@ -386,6 +423,10 @@ color: #fff;
     .sidebarActive {
       width: 100%;
     }
+    .left_right_aline{
+    padding-left: 30px;
+    padding-right: 5px;
+  }
     /*logo*/
     .logo{
       float: right;
@@ -394,5 +435,24 @@ color: #fff;
       position: relative;
       top: 20px;
       left: -20px;
+    }
+    /*menu*/
+    .wrapper_menu .button_menu:nth-child(1){
+      position: fixed;
+      left: 0px;
+      top: 70px;
+      z-index: 1;
+    }
+    .wrapper_menu .button_menu:nth-child(2){
+      position: fixed;
+      left: 0px;
+      top: 130px;
+      z-index: 1;
+    }
+    .wrapper_menu .button_menu:nth-child(3){
+      position: fixed;
+      left: 0px;
+      top: 190px;
+      z-index: 1;
     }
   }

@@ -1,13 +1,16 @@
 
 .section-1{
     background-color: #1f1f1f;
+    color: #fff;
     padding-top: 2%;
     padding-bottom: 5%;
 }
-
+.section-1-header > h2{
+    padding-top: 50px;
+}
 .section-1-header p{
     color:rgb(255, 255, 255);
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 20px;
     padding-right: 10%;
 }
@@ -66,6 +69,7 @@ figure figcaption, figure figcaption > a {
 }
 figcaption p .text-click{
     color: #fff;
+    font-weight: bold;
     font-size: 25px;
 }
 figure{
@@ -86,6 +90,7 @@ figure figcaption:before{
 figure p{
     border-right: 4px solid #fff;
     bottom: 0;
+    font-size: 22px;
     max-width: 340px;
     opacity: 0;
     padding: 0 1em;
@@ -220,4 +225,9 @@ figure:hover p {
 .pricing_feature > div > ul > li >h5{
     color: #F70D1A;
     font-weight: bold;
+}
+@media screen and (max-width: 600px) {    
+    body {
+    font-size: 12px;
+    }
 }

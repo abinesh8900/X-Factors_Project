@@ -1,0 +1,42 @@
+.blog{
+    background-color: #1f1f1f;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+.blog_head{
+    padding-left: 65px;
+}
+
+.blog_content_left > div{
+    padding: 10px 10px 10px 10px;
+    background: linear-gradient(145deg, #1c1c1c, #212121);
+    box-shadow: 5px 5px 12px #121212, -5px -5px 12px #2c2c2c;
+    border-radius: 50px;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.blog_content_left > div > img{
+    border-radius: 40px;
+    cursor: pointer;
+}
+.blog_main{
+    padding: 30px 
+    /*overflow-x: hidden;
+    overflow-y:scroll;
+    position: fixed;*/
+}
+.blog_main > div > h3{
+    color: #F70D1A;
+    padding: 10px 0px 10px 0px;
+}
+.blog_main > div > p{
+    padding: 5px 0px 5px 0px;
+}
+.blog_main > div > ul > li {
+    padding-left: 50px;
+}
+.blog_main > div > p >strong{
+    font-size: 18px;
+}
