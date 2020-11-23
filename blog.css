@@ -22,10 +22,11 @@
     cursor: pointer;
 }
 .blog_main{
-    padding: 30px 
-    /*overflow-x: hidden;
+    padding: 30px; 
+    overflow-x: hidden;
     overflow-y:scroll;
-    position: fixed;*/
+    position: fixed;
+    height: 1000px;
 }
 .blog_main > div > h3{
     color: #F70D1A;

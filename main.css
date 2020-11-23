@@ -343,14 +343,14 @@ font-size: 17px;
 }
 .footer_content_left > h4{ 
     padding-top: 20px;
-color: #F70D1A;
+    color: #F70D1A;
   }
 .footer_content_left > p{
 padding-top: 20px;
 }
 .footer_content_right_list{
   padding-left: 30px;
-  padding-top: 20px;
+
 }
 .footer_content_right_list > h5 >a{
 text-align: left;
@@ -368,6 +368,19 @@ cursor: pointer;
  border-bottom: 2px solid #F70D1A;
 
 }
+
+.footer_blog > h4 >a{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-top: 20px;
+  text-transform: uppercase;
+  } 
+  .footer_blog > h4 >a:hover{
+    color: #F70D1A;
+  }
 .copyright{
   text-align: center;
   padding-top: 20px;
