@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
     font-family: 'Titillium Web', sans-serif;
     width: 100%;
-}
+} 
 .special_case{
   color: #F70D1A;
 }
@@ -270,23 +270,28 @@
     color: #F70D1A; /* color changes here */
     font-weight: 700;
 } 
-.contact-touch {
-    border-bottom: 1px solid #fff;
-    height: 160px; 
-}
+
 .contact-touch > h3 , .contact-social > h3 , .contact-locate > h3{
     font-size: 16px;
     line-height: 40px;
     color: #F70D1A;    /* color changes here */
     font-weight: 700;
+  
 }
-.contact-touch > a{
-text-decoration: none;
-color: #fff;
-line-height: 45px;
-font-size: 17px;
+.contact-touch{
+  border-bottom: 1px solid #fff;
 }
-.contact-touch > a:hover{
+.contact-touch > div > div> i {
+  font-size: 25px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.contact-touch > div > div > a {
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+}
+.contact-touch > div > div > a:hover{
   color: #F70D1A;
 }
 .contact-social {
@@ -328,6 +333,7 @@ font-size: 17px;
   background-color: #1f1f1f;
   color: #fff;
   padding-top: 2%;
+  font-size: 15px;
   border-bottom: 4px solid #F70D1A;
 }
 .footer_bg{
@@ -345,46 +351,52 @@ font-size: 17px;
     padding-top: 20px;
     color: #F70D1A;
   }
-.footer_content_left > p{
+.footer_content_left > p {
 padding-top: 20px;
+}
+.footer_content_right{ 
+  padding-top: 20px;
 }
 .footer_content_right_list{
   padding-left: 30px;
-
+  padding-right: 0px;
 }
 .footer_content_right_list > h5 >a{
-text-align: left;
 color: #F70D1A;
 text-decoration: none;
 cursor: pointer;
+padding-left: 20px;
 }
 
-.footer_content_right_list > p {
-  text-align: left;
-  }
+.footer_content_right_list > div >a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer_content_right_list > div > a:hover{
+  color: #F70D1A;
+}
 
 .footer_content_right_border{
  margin-left: 40px;
- border-bottom: 2px solid #F70D1A;
 
 }
-
-.footer_blog > h4 >a{
+.footer_blog{
+  padding: 0px 0px 0px 0px;
+  
+}
+.footer_blog > h5 >a{
   text-align: center;
-  color: #fff;
+  color: #F70D1A;
   text-decoration: none;
   cursor: pointer;
-  padding-left: 30px;
-  padding-top: 20px;
-  text-transform: uppercase;
+  padding: 20px 0px 0px 40px; 
   } 
-  .footer_blog > h4 >a:hover{
-    color: #F70D1A;
-  }
+
 .copyright{
   text-align: center;
   padding-top: 20px;
   line-height: 7px;
+  border-top: 2px solid #F70D1A;
 }
 .madeby{
 color: #fff;
@@ -467,5 +479,20 @@ color: #fff;
       left: 0px;
       top: 190px;
       z-index: 1;
+    }
+    .footer_logo{
+      display: block;
+      margin-right: auto;
+      width: 40%;
+    }
+    .footer_content_left{
+      border-right: 0px;
+      margin-left: 20px;
+      text-align: justify;
+    
+    }
+    .footer_content_right{
+      margin-left: 20px;
+    
     }
   }

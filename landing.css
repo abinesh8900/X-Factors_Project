@@ -1,8 +1,12 @@
-.landing_pg_vedio{
+.landing_pg_vedio_desk{
   background-color: #1f1f1f;
   color: #fff;
   padding-top: 2%;
   padding-bottom: 5%;
+  display: block;
+}
+.landing_pg_vedio_mobi{
+  display: none;
 }
 .video_header{
   padding-left: 15%;
@@ -241,6 +245,17 @@
 @media screen and (max-width: 600px) {    
 body {
 font-size: 12px;
+}
+.landing_pg_vedio_mobi{
+  background-color: #1f1f1f;
+  color: #fff;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding: 20px 45px 20px 45px ;
+  display: block;
+}
+.landing_pg_vedio_desk{
+  display: none;
 }
 /*tuning works*/
 .tuning-img{

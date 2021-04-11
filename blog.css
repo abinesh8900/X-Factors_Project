@@ -21,6 +21,9 @@
     border-radius: 40px;
     cursor: pointer;
 }
+.blog_carousel{
+    display: none;
+}
 .blog_main{
     padding: 30px; 
     overflow-x: hidden;
@@ -40,4 +43,19 @@
 }
 .blog_main > div > p >strong{
     font-size: 18px;
+}
+
+@media screen and (max-width: 600px) { 
+    .blog_content_left > div{
+        margin: 20px 0px 20px 15px;
+}
+.blog_main{
+    margin-left: 20px;
+}
+.blog_content_left{
+    display: none;
+}
+.blog_carousel{
+    display: block;
+}
 }
